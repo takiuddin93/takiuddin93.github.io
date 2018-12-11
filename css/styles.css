@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,500i,600,600i,700,700i,800');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+#avatar {
+    margin-top: 24px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/me.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: #000000; */
+}
