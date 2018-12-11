@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: black;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
 }
@@ -20,5 +24,49 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(../images/me.jpg);
     background-size: cover;
     background-position: center;
-    /* background-color: #000000; */
+}
+
+.order-last > h1 {
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.order-last > h5 {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.row > .col-4 > #resume {
+    margin-top: 24px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(232, 53, 86, 1);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.row > .col-4 > #my-work {
+    margin-top: 24px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(97, 208, 212, 1);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+
+.row > .col-4 > #my-skills {
+    margin-top: 24px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(209, 201, 38, 1);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-position: center;
 }
