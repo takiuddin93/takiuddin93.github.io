@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #avatar {
-    margin-top: 24px;
     border-radius: 50%;
     width: 400px;
     height: 400px;
@@ -116,8 +115,8 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(-50%, -50%);
 }
 
-footer {
+/* footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
+} */
