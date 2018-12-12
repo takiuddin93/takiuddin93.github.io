@@ -4,8 +4,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: black;
+.body {
+    background-color: #2B363D;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,6 +14,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     font-weight: 500;
+}
+
+.navbar-brand > h2 {
+    color: #F1F0E2;
+}
+
+.navbar-brand > h5 {
+    color: #F1F0E2;
+}
+
+#navbar-menu .nav-link{
+    color: #F1F0E2;
 }
 
 #avatar {
@@ -29,44 +41,77 @@ h1, h2, h3, h4, h5, h6 {
 .order-last > h1 {
     font-size: 72px;
     font-weight: 300;
+    color: #F1F0E2;
 }
 
 .order-last > h5 {
     font-size: 38px;
     font-weight: 300;
+    color: #F1F0E2;
+}
+
+.order-last #intro {
+    font-size: 18px;
+    font-weight: 300;
+    color: #F1F0E2;
 }
 
 .row > .col-4 > #resume {
-    margin-top: 24px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     background-color: rgba(232, 53, 86, 1);
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.row > .col-4 > #resume > h4 {
+    color: #F1F0E2;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .row > .col-4 > #my-work {
-    margin-top: 24px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     background-color: rgba(97, 208, 212, 1);
-    justify-content: center;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    background-position: center;
+    justify-content: center; */
+    position: relative;
+    text-align: center;
+}
+
+.row > .col-4 > #my-work > h4 {
+    color: #F1F0E2;
+    font-size: .9rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .row > .col-4 > #my-skills {
-    margin-top: 24px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     background-color: rgba(209, 201, 38, 1);
-    justify-content: center;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    background-position: center;
+    justify-content: center; */
+    position: relative;
+    text-align: center;
+}
+
+.row > .col-4 > #my-skills > h4 {
+    color: #F1F0E2;
+    font-size: .9rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
