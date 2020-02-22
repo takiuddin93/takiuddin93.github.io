@@ -43,10 +43,10 @@
         {
             "ePhoto":"assets/images/profile-placeholder.png",
             "eName":"Md. Tanzib Hossain",
-            "eID": "",
+            "eID": "3110",
             "ePhone":"01717883717",
             "eMail":"tanzib.hossain@asiaticjwt.com",
-            "ePassword":"",
+            "ePassword":"1234",
             "eBloodGroup":"",
             "eDesignation":"UI/UX Developer"
         },
