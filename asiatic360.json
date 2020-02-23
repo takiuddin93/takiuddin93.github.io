@@ -32,6 +32,16 @@
         },
         {
             "ePhoto":"assets/images/profile-placeholder.png",
+            "eName":"Regan Khalequzzaman",
+            "eID": "0253",
+            "ePhone":"",
+            "eMail":"",
+            "ePassword":"regan253",
+            "eBloodGroup":"",
+            "eDesignation":"Consultant"
+        },
+        {
+            "ePhoto":"assets/images/profile-placeholder.png",
             "eName":"Shahriar M. Hassan",
             "eID": "",
             "ePhone":"",
