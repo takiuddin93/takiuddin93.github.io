@@ -52,6 +52,16 @@
         },
         {
             "ePhoto":"assets/images/profile-placeholder.png",
+            "eName":"Regan Khalequzzaman",
+            "eID": "0253",
+            "ePhone":"",
+            "eMail":"",
+            "ePassword":"regan253",
+            "eBloodGroup":"",
+            "eDesignation":"Consultant"
+        },
+        {
+            "ePhoto":"assets/images/profile-placeholder.png",
             "eName":"Md. Tanzib Hossain",
             "eID": "3110",
             "ePhone":"01717883717",
@@ -66,7 +76,7 @@
             "eID": "3152",
             "ePhone":"01723432693",
             "eMail":"razib.biswas@asiaticjwt.com",
-            "ePassword":"",
+            "ePassword":"3153",
             "eBloodGroup":"",
             "eDesignation":"UI/UX Developer"
         },
