@@ -6,7 +6,7 @@
   align-items: center;
   position: fixed;
   top: 0px;
-  background-color: #000000;
+  background-color: transparent;
   z-index: 11;
   width: 100%;
   box-shadow: none;
