@@ -8,6 +8,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavigationComponent } from '../navigation/navigation.component';
 import { SideButtonsComponent } from '../side-buttons/side-buttons.component';
 import { IntroductionComponent } from '../introduction/introduction.component';
+import { AboutComponent } from '../about/about.component';
 import { FooterComponent } from '../footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -17,6 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavigationComponent,
     SideButtonsComponent,
     IntroductionComponent,
+    AboutComponent,
     FooterComponent
   ],
   imports: [
