@@ -5,13 +5,14 @@
   align-items: center;
   width: 100%;
   white-space: nowrap;
+  font-size: 24px;
 }
 
 .about-text::after {
   content: "";
   display: block;
   height: 1px;
-  width: 256px;
+  width: 128px;
   background-color: #D8C3A4;
   position: relative;
   top: 2px;
