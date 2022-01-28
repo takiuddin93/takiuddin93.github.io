@@ -1,0 +1,115 @@
+.experience-text {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.experience-text::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 256px;
+  background-color: #D8C3A4;
+  position: relative;
+  top: 2px;
+  margin-left: 20px;
+}
+
+.experience {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.workplace-list {
+  display: block;
+  position: relative;
+  width: max-content;
+  z-index: 3;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.workplace-active {
+  text-decoration-skip-ink: auto;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  color: #E88073;
+  text-decoration: none;
+  padding: 0px 20px 2px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  border-left: 1px solid #C6C6C4;
+}
+
+.workplace-inactive {
+  text-decoration-skip-ink: auto;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  color: #8E8D89;
+  text-decoration: none;
+  padding: 0px 20px 2px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  border-left: 1px solid #C6C6C4;
+}
+
+.workdescription-list {
+  display: block;
+  position: relative;
+  width: max-content;
+  z-index: 3;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.workdescription-active {
+  text-decoration-skip-ink: auto;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  text-align: left;
+  white-space: nowrap;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  color: #E88073;
+  text-decoration: none;
+  padding: 0px 20px 2px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+button {
+  cursor: pointer;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 0px;
+}

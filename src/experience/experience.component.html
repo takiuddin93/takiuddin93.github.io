@@ -1,0 +1,79 @@
+<!-- Experience Section -->
+<section>
+  <div id="experience" class="container d-flex vh-100 align-items-center">
+    <div class="row text-left">
+      <div class="col-lg-12 mx-auto">
+        <h2 class="my-1 experience-text mb-4" style="color: #D8C3A4;"><span style="font-size: small; color: #E88073; padding-right: 8px;">2.</span>Places I've Worked</h2>
+        <div class="experience mt-8">
+          <div id="workplace">
+            <ul role="tablist" aria-label="Job tabs" class="workplace-list">
+              <li id="vumobile" >
+                <button
+                  (click)="workplaceChange('vumobile')"
+                  class="workplace-inactive"
+                >
+                  <span>VU Mobile</span>
+                </button>
+              </li>
+              <li id="asiaticjwt" >
+                <button
+                  (click)="workplaceChange('asiaticjwt')"
+                  class="workplace-inactive"
+                >
+                  <span>Asiatic JWT</span>
+                </button>
+              </li>
+              <li id="axionesl" >
+                <button
+                  (click)="workplaceChange('axionesl')"
+                  class="workplace-inactive"
+                >
+                  <span>Axion ESL</span>
+                </button>
+              </li>
+              <li id="grameenphone" >
+                <button
+                  (click)="workplaceChange('grameenphone')"
+                  class="workplace-inactive"
+                >
+                  <span>Grameenphone</span>
+                </button>
+              </li>
+            </ul>            
+          </div>
+          <div id="workdescription">
+            <ul role="tablist" aria-label="Job tabs" class="workdescription-list">
+              <li class="name workdescription-active" *ngIf="ids === 'vumobile'">
+                <div>
+                  <p>Managing all the past VU Mobile applications, including UAT and A/B testing for marketability.</p>
+                  <p>Also working as a cross platform developer for upcoming VU Mobile projects.</p>
+                </div>
+              </li>
+              <li class="name workdescription-active" *ngIf="ids === 'asiaticjwt'">
+                <div>
+                  <p>UI/UX designer and Android developer.</p>
+                  <p>Since 2019, I've been managing Flutter-based cross-platform mobile app design, development, and support.</p>
+                  <p>I've worked on HR management and schedulers.</p>
+                </div>
+              </li>
+              <li class="name workdescription-active" *ngIf="ids === 'axionesl'">
+                <div>
+                  <p>Managing projects from start to finish, including A/B testing for marketability.</p>
+                  <p>Cost estimation, technology use, and quality control.</p>
+                </div>
+              </li>
+              <li class="name workdescription-active" *ngIf="ids === 'grameenphone'">
+                <div>
+                  <p>Skitto app quality assurance and testing.</p>
+                  <p>Creating test cases and replications.</p>
+                  <p>Sending app issues and bugs to developers via JIRA.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="img/ipad.png" class="img-fluid" alt="">
+  </div>
+</section>
