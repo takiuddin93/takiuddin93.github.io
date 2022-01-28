@@ -55,8 +55,9 @@
 .me {
   display: flex;
   align-items: center;
+  height: 100vh;
   justify-content: center;
-  opacity: 0.32;
+  opacity: 0.64;
   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
   position: relative;
   background-color: #E88073;
