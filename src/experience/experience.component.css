@@ -34,28 +34,7 @@
   list-style: none;
 }
 
-.workplace-active {
-  text-decoration-skip-ink: auto;
-  position: relative;
-  cursor: pointer;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  width: 100%;
-  background-color: transparent;
-  height: 42px;
-  text-align: left;
-  white-space: nowrap;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  font-size: 13px;
-  color: #E88073;
-  text-decoration: none;
-  padding: 0px 20px 2px;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-  border-left: 1px solid #C6C6C4;
-}
-
-.workplace-inactive {
+.workplace {
   text-decoration-skip-ink: auto;
   position: relative;
   cursor: pointer;
@@ -73,7 +52,12 @@
   text-decoration: none;
   padding: 0px 20px 2px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-  border-left: 1px solid #C6C6C4;
+  border-left: 2px solid #C6C6C4;
+}
+
+.workplace:hover {
+  border-left: 3px solid #E88073;
+  color: #E88073;
 }
 
 .workdescription-list {
@@ -86,7 +70,7 @@
   list-style: none;
 }
 
-.workdescription-active {
+.workdescription {
   text-decoration-skip-ink: auto;
   position: relative;
   cursor: pointer;
@@ -99,10 +83,28 @@
   white-space: nowrap;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   font-size: 13px;
-  color: #E88073;
+  color: #8E8D89;
   text-decoration: none;
   padding: 0px 20px 2px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.works-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  overflow: hidden;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+
+.works::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: #E88073;
+  font-size: 14px;
+  line-height: 12px;
 }
 
 button {
