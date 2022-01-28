@@ -44,6 +44,9 @@
   list-style: none;
 }
 
+.navbar-nav, .nav-item, span{
+  background-color: transparent;
+}
 
 .nav-link {
   font-size: larger;
