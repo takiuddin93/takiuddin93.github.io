@@ -2,80 +2,76 @@
 <section>
   <div id="experience" class="container d-flex vh-100 align-items-center">
     <div class="row text-left">
-      <div class="col-lg-12 mx-auto">
-        <h2 class="my-1 experience-text mb-4" style="color: #D8C3A4;"><span style="font-size: small; color: #E88073; padding-right: 8px;">2.</span>Places I've Worked</h2>
-        <div class="experience mt-8">
-          <div id="workplace">
-            <ul class="workplace-list">
-              <li id="vumobile" >
-                <button
-                  (click)="workplaceChange('vumobile')"
-                  class="workplace"
-                  [style.border-left]="vumobile"
-                >
-                  <span>VU Mobile</span>
-                </button>
-              </li>
-              <li id="asiaticjwt" >
-                <button
-                  (click)="workplaceChange('asiaticjwt')"
-                  class="workplace"
-                  [style.border-left]="asiaticjwt"
-                >
-                  <span>Asiatic JWT</span>
-                </button>
-              </li>
-              <li id="axionesl" >
-                <button
-                  (click)="workplaceChange('axionesl')"
-                  class="workplace"
-                  [style.border-left]="axionesl"
-                >
-                  <span>Axion ESL</span>
-                </button>
-              </li>
-              <li id="grameenphone" >
-                <button
-                  (click)="workplaceChange('grameenphone')"
-                  class="workplace"
-                  [style.border-left]="grameenphone"
-                >
-                  <span>Grameenphone</span>
-                </button>
-              </li>
-            </ul>            
-          </div>
-          <div id="workdescription">
-            <ul class="workdescription-list">
-              <li class="workdescription" *ngIf="ids === 'vumobile'">
-                <div>
-                  <p class="works">Managing all the past VU Mobile applications, including UAT and A/B testing for marketability.</p>
-                  <p class="works">Also working as a cross platform developer for upcoming VU Mobile projects.</p>
-                </div>
-              </li>
-              <li class="workdescription" *ngIf="ids === 'asiaticjwt'">
-                <div>
-                  <p class="works">UI/UX designer and Android developer.</p>
-                  <p class="works">Since 2019, I've been managing Flutter-based cross-platform mobile app design, development, and support.</p>
-                  <p class="works">I've worked on HR management and schedulers.</p>
-                </div>
-              </li>
-              <li class="workdescription" *ngIf="ids === 'axionesl'">
-                <div>
-                  <p class="works">Managing projects from start to finish, including A/B testing for marketability.</p>
-                  <p class="works">Cost estimation, technology use, and quality control.</p>
-                </div>
-              </li>
-              <li class="workdescription" *ngIf="ids === 'grameenphone'">
-                <div>
-                  <p class="works">Skitto app quality assurance and testing.</p>
-                  <p class="works">Creating test cases and replications.</p>
-                  <p class="works">Sending app issues and bugs to developers via JIRA.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <h2 class="my-1 experience-text mb-4" style="color: #D8C3A4;"><span style="font-size: small; color: #E88073; padding-right: 8px;">2.</span>Places I've Worked</h2>
+      <div id="col-lg-4 col-md-4 workplace">
+        <ul class="workplace-list">
+          <li id="vumobile" >
+            <button
+              (click)="workplaceChange('vumobile')"
+              class="workplace"
+              [style.border-left]="vumobile"
+            >
+              <span>VU Mobile</span>
+            </button>
+          </li>
+          <li id="asiaticjwt" >
+            <button
+              (click)="workplaceChange('asiaticjwt')"
+              class="workplace"
+              [style.border-left]="asiaticjwt"
+            >
+              <span>Asiatic JWT</span>
+            </button>
+          </li>
+          <li id="axionesl" >
+            <button
+              (click)="workplaceChange('axionesl')"
+              class="workplace"
+              [style.border-left]="axionesl"
+            >
+              <span>Axion ESL</span>
+            </button>
+          </li>
+          <li id="grameenphone" >
+            <button
+              (click)="workplaceChange('grameenphone')"
+              class="workplace"
+              [style.border-left]="grameenphone"
+            >
+              <span>Grameenphone</span>
+            </button>
+          </li>
+        </ul>            
+      </div>
+      <div id="col-lg-8 col-md-8 workdescription">
+        <ul class="workdescription-list">
+          <li class="workdescription" *ngIf="ids === 'vumobile'">
+            <div>
+              <p class="works">Managing all the past VU Mobile applications, including UAT and A/B testing for marketability.</p>
+              <p class="works">Also working as a cross platform developer for upcoming VU Mobile projects.</p>
+            </div>
+          </li>
+          <li class="workdescription" *ngIf="ids === 'asiaticjwt'">
+            <div>
+              <p class="works">UI/UX designer and Android developer.</p>
+              <p class="works">Since 2019, I've been managing Flutter-based cross-platform mobile app design, development, and support.</p>
+              <p class="works">I've worked on HR management and schedulers.</p>
+            </div>
+          </li>
+          <li class="workdescription" *ngIf="ids === 'axionesl'">
+            <div>
+              <p class="works">Managing projects from start to finish, including A/B testing for marketability.</p>
+              <p class="works">Cost estimation, technology use, and quality control.</p>
+            </div>
+          </li>
+          <li class="workdescription" *ngIf="ids === 'grameenphone'">
+            <div>
+              <p class="works">Skitto app quality assurance and testing.</p>
+              <p class="works">Creating test cases and replications.</p>
+              <p class="works">Sending app issues and bugs to developers via JIRA.</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

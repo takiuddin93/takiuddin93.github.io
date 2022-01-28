@@ -5,13 +5,14 @@
   align-items: center;
   width: 100%;
   white-space: nowrap;
+  font-size: 24px;
 }
 
 .experience-text::after {
   content: "";
   display: block;
   height: 1px;
-  width: 256px;
+  width: 64px;
   background-color: #D8C3A4;
   position: relative;
   top: 2px;
@@ -47,7 +48,7 @@
   text-align: left;
   white-space: nowrap;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  font-size: 13px;
+  font-size: 16px;
   color: #8E8D89;
   text-decoration: none;
   padding: 0px 20px 2px;
@@ -56,7 +57,7 @@
 }
 
 .workplace:hover {
-  border-left: 3px solid #E88073;
+  border-left: 4px solid #E88073;
   color: #E88073;
 }
 
@@ -82,7 +83,7 @@
   text-align: left;
   white-space: nowrap;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-  font-size: 13px;
+  font-size: 16px;
   color: #8E8D89;
   text-decoration: none;
   padding: 0px 20px 2px;
@@ -103,7 +104,7 @@
   position: absolute;
   left: 0px;
   color: #E88073;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 12px;
 }
 

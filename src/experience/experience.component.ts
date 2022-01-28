@@ -20,25 +20,25 @@ export class ExperienceComponent implements OnInit {
   workplaceChange(ids: any){
     this.ids = ids;
     if(ids == "vumobile"){
-      this.vumobile = "3px solid #E88073";
+      this.vumobile = "4px solid #E88073";
       this.asiaticjwt = "2px solid #C6C6C4";
       this.axionesl = "2px solid #C6C6C4";
       this.grameenphone = "2px solid #C6C6C4";
     } else if(ids == "asiaticjwt"){
       this.vumobile = "2px solid #C6C6C4";
-      this.asiaticjwt = "3px solid #E88073";
+      this.asiaticjwt = "4px solid #E88073";
       this.axionesl = "2px solid #C6C6C4";
       this.grameenphone = "2px solid #C6C6C4";
     } else if(ids == "axionesl"){
       this.vumobile = "2px solid #C6C6C4";
       this.asiaticjwt = "2px solid #C6C6C4";
-      this.axionesl = "3px solid #E88073";
+      this.axionesl = "4px solid #E88073";
       this.grameenphone = "2px solid #C6C6C4";
     } else if(ids == "grameenphone"){
       this.vumobile = "2px solid #C6C6C4";
       this.asiaticjwt = "2px solid #C6C6C4";
       this.axionesl = "2px solid #C6C6C4";
-      this.grameenphone = "3px solid #E88073";
+      this.grameenphone = "4px solid #E88073";
     }
     
   }
