@@ -60,7 +60,6 @@
   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
   position: relative;
   background-color: #E88073;
-  margin-left: -20px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   border-radius: 3px;
 }
