@@ -103,5 +103,7 @@
       }
     }
   },
-  "defaultProject": "takiuddin93.github.io"
+  "cli": {
+    "analytics": "c8d21db7-efbc-4853-ace8-d0bef08cae73"
+  }
 }
